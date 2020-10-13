@@ -6,5 +6,5 @@ neoPin.P0,
 NeoPixelMode.RGBW
 )
 basic.forever(function () {
-    biowearables.drawDoubleBarsMicrobit(biowearables.simulateBreath(5), 30, biowearables.simulateBreath(3), 93)
+    biowearables.drawDiskMicrobit(100, 100)
 })
